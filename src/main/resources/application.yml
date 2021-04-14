@@ -1,0 +1,11 @@
+micronaut:
+  application:
+    name: nossaCasaDoCodigo
+datasources:
+  default:
+    url: jdbc:mysql://localhost:3306/casa_do_codigo_micronaut?createDatabaseIfNotExist=true&serverTimezone=UTC
+    username: root
+    password: W24QF85NFqd2
+    dialect: MYSQL
+
+jpa.default.properties.hibernate.hbm2ddl.auto: update
